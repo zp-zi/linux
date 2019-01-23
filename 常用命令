@@ -1,0 +1,25 @@
+修改权限
+cd /usr   进入上级目录
+sudo chmod 755 -R 修改权限文件名
+解压缩
+sudo tar zxvf 文件.tar.gz -C 解压到目录
+获取超级权限，在终端输入：
+su boot
+删除
+sudo rm -r
+
+ mysql 如何退出
+
+MySQL登录与退出
+登录Mysql：“输入mysql -u帐号 -p密码 这是登陆
+mysql退出：mysql > exit;
+以下是实例参考下：
+
+登录Mysql：“输入mysql -uroot -p -P3306 -h127.0.0.1”
+表示超级用户名root,密码稍后输入，端口号3306（不输入P默认为3306），
+主机地址127.0.0.1（若使用本机作为主机，h默认127.0.0.1）
+
+mysql退出三种方法：
+mysql > exit;
+mysql > quit;
+mysql > \q;
